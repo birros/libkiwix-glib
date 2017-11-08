@@ -1,6 +1,7 @@
 # Libkiwix-GLib
 
 **Partial GObject/C bindings for the libkiwix.**
+
 This bindings was primarly done to permit [libkiwix] usage for [WebArchives].
 
 ## Dependencies and environnement
@@ -25,6 +26,7 @@ meson -Denable-tests=true ..
 ```
 
 **Disclaimer**
+
 Tests are not truely unit tests, just try to use the library to get informations
 from an archive.
 Those are useful to quickly show result of bindings use.
@@ -35,7 +37,8 @@ Those are useful to quickly show result of bindings use.
 meson test --test-args=<archive-path>
 ```
 
-**Notice**
+**Notice.**
+
 Don't forget to:
 1. give *absolute path* of the archive.
 2. *double quote* the path.
@@ -48,7 +51,8 @@ Don't forget to:
 meson test --test-args=<archive-path> prog-c -v
 ```
 
-**Notice**
+**Notice.**
+
 Same requirements as previous notice.
 
 ### TODO
