@@ -1,4 +1,8 @@
-# Libkiwix-GLib
+__Note__: This project is no longer actively maintained.
+
+---
+
+# [ARCHIVED] Libkiwix-GLib
 
 **Partial GObject/C bindings for the libkiwix.**
 
